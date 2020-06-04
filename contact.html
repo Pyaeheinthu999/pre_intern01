@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<style type="text/css">
+		.header {
+  			overflow: hidden;
+ 			background-color:#339900 ;
+  			padding: 20px 10px;
+		}
+		.header a {
+ 			 float: left;
+ 			 color: white;
+  			text-align: center;
+  			padding: 12px;
+  			text-decoration: none;
+  			font-size: 15px;
+  			
+		}
+		.header a:hover {
+ 			 background-color: #006633;
+  			 color: white;
+		}
+		.header a.active {
+ 			 background-color:#FFF;
+ 			 color: white;
+		}
+		.header-right {
+  			float: right;
+		}
+		.logo{
+			font-size: 30px;
+			font-family: Arial,Roboto;
+			font-weight: bold;
+		}
+		@media screen and (max-width: 500px) {
+  		.header a {
+   			 float: none;
+    		display:inline-block;
+   			text-align: left;
+ 		 }
+  		.header-right {
+    		float: none;
+ 		 }
+	}
+
+		input[type=text] {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+		}
+		input[type=text] ,textarea {
+ 			 width: 100%;
+ 			 padding: 12px;
+ 			 border: 1px solid #ccc;
+ 			 margin-top: 6px;
+ 			 margin-bottom: 16px;
+  			resize: vertical;
+		}
+
+		input[type=submit] {
+ 			 background-color: #4CAF50;
+ 			 color: white;
+  			padding: 12px 20px;
+  			border: none;
+  			cursor: pointer;
+  			float: right;
+			}
+		input[type=submit]:hover {
+			  background-color: #45a049;
+			}
+		.footer{
+			background-color: #C0C0C0;
+			color: white;
+		}
+		.footer1{
+			background-color: #339900;
+			color: white;
+			text-align: center;
+			height: 40px;
+			padding-top: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+  <div class="logo">STERLING <br><small>INDUSTRIAL TECHNOLOGIES CO,LTD</small>
+  <div class="header-right">
+    <a href="index.html">Home</a>
+    <a href="#">About Us</a>
+    <a href="#">Services</a>
+    <a href="#">Projects </a>
+    <a href="#">Activities</a>
+    <a href="#">Contact Us</a>
+    
+    </div>
+  </div>
+</div> 
+<center><h1>CONTACT US</h1></center>
+	<h2>OFFICE</h2>
+	<p>Location=Room-1008,10th Floor,Building-B,50th Street Condominium,50th Street,Botahtaung Township,Yangon,Myanmar.<br>Phone=(+95)9 45 12 999 88,(+95)9 535 1714<br>Mail=info@sterling-myanmar.com</p>
+	<form>
+		<label for="name">Name</label>
+		<input type="text" name="name" placeholder="Name">
+		<label for="email">Email</label>
+		<input type="text" name="email" placeholder="Email">
+		<label for="pno">Phone</label>
+		<input type="text" name="pno" placeholder="Phone">
+		
+		<label for="msg">Message</label>
+		<textarea name="txt" placeholder="Message" style="height: 150px;"></textarea>
+		<input type="submit" value="Send" >
+		
+	</form><br><br>
+	<div class="footer">
+		<h3>QUICK LINKS</h3>
+		<ul>
+			<li>Home</li>
+			<li>About Us</li>
+			<li>Services</li>
+			<li>Projets</li>
+			<li>Contact Us</li>
+		</ul>
+		<h3>CONTACT US</h3>
+		<p>Location=Room-1008,10th Floor,Building-B,50th Street Condominium,50th Street,Botahtaung Township,Yangon,Myanmar.<br>Phone=(+95)9 45 12 999 88,(+95)9 535 1714<br>=Mailinfo@sterling-myanmar.com</p>
+	</div>
+	<div class="footer1">Copyright(&copy;)STERLING MYANMAR.All Right Reserved.|Designed By Host Myanmar</div>
+</body>
+</html>
